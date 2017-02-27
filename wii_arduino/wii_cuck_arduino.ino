@@ -39,11 +39,8 @@ void loop() {
     int x = nunchuk.x_acceleration() - vals.accelX;
     int y = nunchuk.y_acceleration() - vals.accelY;
     int z = nunchuk.z_acceleration() - vals.accelZ;
-    Serial.print(x);
-    Serial.print(",");
-    Serial.print(y);
-    Serial.print(",");
-    Serial.println(z);
+    Serial.println(String(x)+","+String(y)+","+String(z));
+    delay(50);
   }
 }
 

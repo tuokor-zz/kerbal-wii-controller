@@ -2,6 +2,8 @@
 Using wii nunchuk and arduino to send sensor data to krpc mod that controls the ship pitch and yaw. Z-button is
 used to reset the xyz-values to current controller position so that preferred controller handling can be achieved.
 
+The Wii nunchuck controller code is originally from the book https://pragprog.com/book/msard/arduino
+
 # Steps to make anything work
 1. install arduino
 2. install kRPC kerbal mod
